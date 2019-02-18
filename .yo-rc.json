@@ -1,0 +1,12 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.7.1",
+    "libraryName": "spfx-vuejs-scratch",
+    "libraryId": "41a5bd47-4316-42c0-b491-6bc550e770b9",
+    "environment": "spo",
+    "packageManager": "npm",
+    "framework": "none",
+    "isCreatingSolution": true,
+    "componentType": "webpart"
+  }
+}

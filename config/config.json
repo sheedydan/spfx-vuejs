@@ -1,0 +1,21 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-vuejs-scratch-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxVuejsScratch/SpfxVuejsScratchWebPart.js",
+          "manifest": "./src/webparts/spfxVuejsScratch/SpfxVuejsScratchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "vue": "./node_modules/vue/dist/vue.min.js"
+  },
+  "localizedResources": {
+    "SpfxVuejsScratchWebPartStrings": "lib/webparts/spfxVuejsScratch/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
